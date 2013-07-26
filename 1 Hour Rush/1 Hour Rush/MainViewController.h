@@ -14,10 +14,12 @@
     
     IBOutlet UITextField *field;
     IBOutlet UILabel *label;
+    IBOutlet UIButton *generate; 
     
 }
 - (IBAction)enterguess:(id)sender;
-@property (strong, nonatomic)IBOutlet UILabel *Guess;
+- (IBAction)generatepress:(id)sender;
+
 
 
 @end

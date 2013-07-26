@@ -15,19 +15,23 @@
 @implementation MainViewController
 
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
 	// Do any additional setup after loading the view, typically from a nib.
-    label.text = [NSString stringWithFormat:@"Number, %i",randomNum];
+   
 
 }
 
+- (IBAction)generatepress:(id)sender;{
+    randomNum = arc4random () % 10;
 
+}
 
 -(IBAction)enterguess:(id)sender;{
-    randomNum = arc4random () % 10;
+   
     if ([field.text intValue] == randomNum) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Your Guess Was Correct!" message:nil delegate: self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil, nil];
         [alert show];

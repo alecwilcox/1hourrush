@@ -30,7 +30,10 @@
                                     <constraint firstAttribute="width" constant="232" id="m6n-D3-5MA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go"/>
+                                <connections>
+                                    <action selector="enterguess:" destination="2" eventType="editingDidEndOnExit" id="ka5-Sf-54L"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfD-i5-24m">
                                 <constraints>
@@ -59,7 +62,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKk-L3-HxS">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKk-L3-HxS">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73" id="gpi-kB-Bhg"/>
                                 </constraints>
@@ -77,7 +80,7 @@
                         <constraints>
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="2yJ-Bv-HX7"/>
                             <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="172" id="328-tn-s5G"/>
-                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="234" id="Fra-Gp-K0C"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="OAf-4S-t9f"/>
                             <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="ZJx-GP-FlA"/>
                             <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="apl-1S-UOC"/>
                             <constraint firstAttribute="bottom" secondItem="10" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="bcr-if-aDO"/>
@@ -86,9 +89,13 @@
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="top" secondItem="KMK-mR-gnX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qTI-E2-vST"/>
                             <constraint firstItem="g5g-MO-tWP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="qkP-zu-h9P"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="KMK-mR-gnX" secondAttribute="centerX" type="default" id="qt1-SE-Rsy"/>
-                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="tPy-Rr-ZUI"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="242" id="rAi-e0-7KE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="field" destination="g5g-MO-tWP" id="tzt-6M-jCq"/>
+                        <outlet property="label" destination="rfD-i5-24m" id="80p-OH-egJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,20 +156,6 @@
             <point key="canvasLocation" x="368" y="182"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="FlipsideViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="done:"/>
-            </relationships>
-        </class>
-        <class className="MainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

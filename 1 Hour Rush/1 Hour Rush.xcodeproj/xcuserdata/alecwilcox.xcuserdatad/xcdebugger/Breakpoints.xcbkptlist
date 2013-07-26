@@ -8,37 +8,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "1 Hour Rush/MainViewController.m"
-         timestampString = "396564322.319123"
+         timestampString = "396566218.180904"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "27"
-         endingLineNumber = "27"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
+         startingLineNumber = "29"
+         endingLineNumber = "29"
+         landmarkName = "@implementation MainViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "1 Hour Rush/MainViewController.m"
-         timestampString = "396564376.075564"
+         timestampString = "396566218.180904"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "35"
-         endingLineNumber = "35"
-         landmarkName = "-didReceiveMemoryWarning"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "1 Hour Rush/MainViewController.m"
-         timestampString = "396564428.395455"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "33"
-         endingLineNumber = "33"
+         startingLineNumber = "39"
+         endingLineNumber = "39"
          landmarkName = "-enterguess:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,13 +34,26 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "1 Hour Rush/MainViewController.m"
-         timestampString = "396564456.21805"
+         timestampString = "396566218.180904"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "34"
-         endingLineNumber = "34"
-         landmarkName = "@implementation MainViewController"
-         landmarkType = "3">
+         startingLineNumber = "37"
+         endingLineNumber = "37"
+         landmarkName = "-enterguess:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "1 Hour Rush/MainViewController.m"
+         timestampString = "396566218.180904"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
+         landmarkName = "-enterguess:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
