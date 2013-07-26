@@ -77,16 +77,16 @@
                         <constraints>
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="2yJ-Bv-HX7"/>
                             <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="172" id="328-tn-s5G"/>
-                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="234" id="Fra-Gp-K0C"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="6QF-gP-nvu"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="pcd-pF-bvW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QVL-8I-YVN"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="pcd-pF-bvW" secondAttribute="centerX" type="default" id="W4L-58-HzV"/>
                             <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="ZJx-GP-FlA"/>
                             <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="apl-1S-UOC"/>
                             <constraint firstAttribute="bottom" secondItem="10" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="bcr-if-aDO"/>
-                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="pcd-pF-bvW" secondAttribute="centerX" type="default" id="jzf-Fq-qhl"/>
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="g5g-MO-tWP" secondAttribute="centerX" type="default" id="q53-rw-iCc"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="top" secondItem="KMK-mR-gnX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qTI-E2-vST"/>
                             <constraint firstItem="g5g-MO-tWP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="qkP-zu-h9P"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="KMK-mR-gnX" secondAttribute="centerX" type="default" id="qt1-SE-Rsy"/>
-                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="tPy-Rr-ZUI"/>
                         </constraints>
                     </view>
                 </viewController>
