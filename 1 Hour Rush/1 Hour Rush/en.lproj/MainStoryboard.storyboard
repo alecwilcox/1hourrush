@@ -78,12 +78,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-<<<<<<< HEAD
+
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="2yJ-Bv-HX7"/>
                             <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="172" id="328-tn-s5G"/>
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="OAf-4S-t9f"/>
                             <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="ZJx-GP-FlA"/>
-=======
+
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="125" id="0d3-Kh-Fug"/>
                             <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="6da-Z0-Odk"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="8tA-7n-zOe"/>
@@ -189,7 +189,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
     </classes>
->>>>>>> 8cfaa7e1297693bae49a7d72a5a54be53c88074e
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
