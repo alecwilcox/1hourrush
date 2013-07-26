@@ -9,5 +9,15 @@
 #import "FlipsideViewController.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+{
+    int randomNum;
+    
+    IBOutlet UITextField *field;
+    IBOutlet UILabel *label;
+    
+}
+- (IBAction)enterguess:(id)sender;
+@property (strong, nonatomic)IBOutlet UILabel *Guess;
+
 
 @end

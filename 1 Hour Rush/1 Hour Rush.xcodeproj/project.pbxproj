@@ -304,6 +304,7 @@
 				3F97E80A17A3110A001E3F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
