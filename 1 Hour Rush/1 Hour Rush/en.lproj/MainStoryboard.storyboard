@@ -75,18 +75,18 @@
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="2yJ-Bv-HX7"/>
-                            <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="172" id="328-tn-s5G"/>
-                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="6QF-gP-nvu"/>
-                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="pcd-pF-bvW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QVL-8I-YVN"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="125" id="0d3-Kh-Fug"/>
+                            <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="6da-Z0-Odk"/>
+                            <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="8tA-7n-zOe"/>
+                            <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="214" id="EFm-RC-mT0"/>
+                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="Hut-o0-5tK"/>
+                            <constraint firstItem="g5g-MO-tWP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="198" id="Po6-tA-YaS"/>
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="pcd-pF-bvW" secondAttribute="centerX" type="default" id="W4L-58-HzV"/>
-                            <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="ZJx-GP-FlA"/>
                             <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="apl-1S-UOC"/>
                             <constraint firstAttribute="bottom" secondItem="10" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="bcr-if-aDO"/>
                             <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="g5g-MO-tWP" secondAttribute="centerX" type="default" id="q53-rw-iCc"/>
-                            <constraint firstItem="pcd-pF-bvW" firstAttribute="top" secondItem="KMK-mR-gnX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qTI-E2-vST"/>
-                            <constraint firstItem="g5g-MO-tWP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="qkP-zu-h9P"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="KMK-mR-gnX" secondAttribute="centerX" type="default" id="qt1-SE-Rsy"/>
+                            <constraint firstItem="pcd-pF-bvW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="60" id="xBQ-dF-uI5"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -158,6 +158,12 @@
         </class>
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="enterguess:"/>
+                <relationship kind="outlet" name="Guess" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="field" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
