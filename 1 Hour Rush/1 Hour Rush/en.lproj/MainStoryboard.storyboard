@@ -59,19 +59,34 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKk-L3-HxS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="gpi-kB-Bhg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Generate">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="CKc-CZ-Swt"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="2yJ-Bv-HX7"/>
+                            <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="172" id="328-tn-s5G"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="234" id="Fra-Gp-K0C"/>
                             <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="ZJx-GP-FlA"/>
                             <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="apl-1S-UOC"/>
                             <constraint firstAttribute="bottom" secondItem="10" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="bcr-if-aDO"/>
                             <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="pcd-pF-bvW" secondAttribute="centerX" type="default" id="jzf-Fq-qhl"/>
-                            <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="216" id="obi-1a-jdF"/>
-                            <constraint firstItem="KMK-mR-gnX" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="p5q-m0-HpK"/>
+                            <constraint firstItem="lKk-L3-HxS" firstAttribute="centerX" secondItem="g5g-MO-tWP" secondAttribute="centerX" type="default" id="q53-rw-iCc"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="top" secondItem="KMK-mR-gnX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qTI-E2-vST"/>
                             <constraint firstItem="g5g-MO-tWP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="qkP-zu-h9P"/>
                             <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="KMK-mR-gnX" secondAttribute="centerX" type="default" id="qt1-SE-Rsy"/>
+                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="tPy-Rr-ZUI"/>
                         </constraints>
                     </view>
                 </viewController>
