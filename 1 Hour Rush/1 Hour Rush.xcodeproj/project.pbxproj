@@ -16,9 +16,9 @@
 		3F97E7F817A3110A001E3F34 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F97E7F717A3110A001E3F34 /* Default.png */; };
 		3F97E7FA17A3110A001E3F34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F97E7F917A3110A001E3F34 /* Default@2x.png */; };
 		3F97E7FC17A3110A001E3F34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F97E7FB17A3110A001E3F34 /* Default-568h@2x.png */; };
-		3F97E7FF17A3110A001E3F34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F97E7FD17A3110A001E3F34 /* MainStoryboard.storyboard */; };
 		3F97E80217A3110A001E3F34 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97E80117A3110A001E3F34 /* MainViewController.m */; };
 		3F97E80517A3110A001E3F34 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F97E80417A3110A001E3F34 /* FlipsideViewController.m */; };
+		3F97E80C17A3205C001E3F34 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F97E80B17A3205C001E3F34 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		3F97E7F717A3110A001E3F34 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F97E7F917A3110A001E3F34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F97E7FB17A3110A001E3F34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3F97E7FE17A3110A001E3F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3F97E80017A3110A001E3F34 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		3F97E80117A3110A001E3F34 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3F97E80317A3110A001E3F34 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		3F97E80417A3110A001E3F34 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		3F97E80B17A3205C001E3F34 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 			children = (
 				3F97E7F417A3110A001E3F34 /* AppDelegate.h */,
 				3F97E7F517A3110A001E3F34 /* AppDelegate.m */,
-				3F97E7FD17A3110A001E3F34 /* MainStoryboard.storyboard */,
 				3F97E80017A3110A001E3F34 /* MainViewController.h */,
+				3F97E80B17A3205C001E3F34 /* Storyboard.storyboard */,
 				3F97E80117A3110A001E3F34 /* MainViewController.m */,
 				3F97E80317A3110A001E3F34 /* FlipsideViewController.h */,
 				3F97E80417A3110A001E3F34 /* FlipsideViewController.m */,
@@ -167,7 +167,7 @@
 				3F97E7F817A3110A001E3F34 /* Default.png in Resources */,
 				3F97E7FA17A3110A001E3F34 /* Default@2x.png in Resources */,
 				3F97E7FC17A3110A001E3F34 /* Default-568h@2x.png in Resources */,
-				3F97E7FF17A3110A001E3F34 /* MainStoryboard.storyboard in Resources */,
+				3F97E80C17A3205C001E3F34 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,14 +194,6 @@
 				3F97E7EF17A31109001E3F34 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3F97E7FD17A3110A001E3F34 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F97E7FE17A3110A001E3F34 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
