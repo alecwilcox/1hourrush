@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2546" systemVersion="12A248" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1876"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier Main View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="MainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="10">
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10">
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -25,11 +25,53 @@
                                     <segue destination="6" kind="modal" identifier="showAlternate" modalTransitionStyle="flipHorizontal" id="11"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g5g-MO-tWP">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="232" id="m6n-D3-5MA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfD-i5-24m">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="Ayy-Up-Sxk"/>
+                                    <constraint firstAttribute="width" constant="126" id="xh8-Sc-Gs8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pick a number 1-10, 1 and 10 inculded." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="210" translatesAutoresizingMaskIntoConstraints="NO" id="pcd-pF-bvW">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="ljj-jo-CqM"/>
+                                    <constraint firstAttribute="height" constant="49" id="vrG-3U-zam"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pick A Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMK-mR-gnX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="TbE-5A-RuJ"/>
+                                    <constraint firstAttribute="height" constant="64" id="cpq-5j-dJd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="rfD-i5-24m" secondAttribute="centerX" type="default" id="CKc-CZ-Swt"/>
+                            <constraint firstItem="KMK-mR-gnX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="ZJx-GP-FlA"/>
                             <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="apl-1S-UOC"/>
                             <constraint firstAttribute="bottom" secondItem="10" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="bcr-if-aDO"/>
+                            <constraint firstItem="g5g-MO-tWP" firstAttribute="centerX" secondItem="pcd-pF-bvW" secondAttribute="centerX" type="default" id="jzf-Fq-qhl"/>
+                            <constraint firstAttribute="bottom" secondItem="rfD-i5-24m" secondAttribute="bottom" constant="216" id="obi-1a-jdF"/>
+                            <constraint firstItem="KMK-mR-gnX" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="p5q-m0-HpK"/>
+                            <constraint firstItem="pcd-pF-bvW" firstAttribute="top" secondItem="KMK-mR-gnX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qTI-E2-vST"/>
+                            <constraint firstItem="g5g-MO-tWP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="qkP-zu-h9P"/>
+                            <constraint firstItem="pcd-pF-bvW" firstAttribute="centerX" secondItem="KMK-mR-gnX" secondAttribute="centerX" type="default" id="qt1-SE-Rsy"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,17 +79,17 @@
             </objects>
             <point key="canvasLocation" x="-51" y="182"/>
         </scene>
-        <!--class Prefix:identifier Flipside View Controller-->
+        <!--Flipside View Controller-->
         <scene sceneID="9">
             <objects>
                 <viewController id="6" customClass="FlipsideViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <navigationBar translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" id="12">
+                            <navigationBar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="12">
                                 <items>
-                                    <navigationItem title="Title" id="13">
+                                    <navigationItem title="About" id="13">
                                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="14">
                                             <connections>
                                                 <action selector="done:" destination="6" id="16"/>
@@ -56,12 +98,34 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="TinkerSoft©" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIk-3J-Sad">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="237" id="mMO-76-OFI"/>
+                                    <constraint firstAttribute="height" constant="110" id="tbd-7m-UV5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="0.41873301630434778" green="0.41873301630434778" blue="0.41873301630434778" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="233" translatesAutoresizingMaskIntoConstraints="NO" id="A8S-pW-mfE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="184" id="44t-OY-gHK"/>
+                                </constraints>
+                                <string key="text">This Project was rushed in one hour after throwing out one that we had been working on for days and then another that we spent around 1hr and 30 mins on due to different bugs and compatiblity problems so sorry if it sucks.TinkerSoft©</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="OIk-3J-Sad" firstAttribute="centerX" secondItem="12" secondAttribute="centerX" type="default" id="GF4-cT-CTd"/>
+                            <constraint firstItem="OIk-3J-Sad" firstAttribute="top" secondItem="7" secondAttribute="top" constant="64" id="HVP-ya-cBz"/>
+                            <constraint firstItem="A8S-pW-mfE" firstAttribute="leading" secondItem="7" secondAttribute="leading" constant="36" id="PHZ-PQ-Yr4"/>
                             <constraint firstItem="12" firstAttribute="leading" secondItem="7" secondAttribute="leading" type="default" id="kyL-VC-rMY"/>
                             <constraint firstItem="12" firstAttribute="top" secondItem="7" secondAttribute="top" type="default" id="oQ7-QK-1Ab"/>
-                            <constraint firstItem="12" firstAttribute="trailing" secondItem="7" secondAttribute="trailing" type="default" id="yf5-Bx-wHg"/>
+                            <constraint firstAttribute="bottom" secondItem="A8S-pW-mfE" secondAttribute="bottom" constant="48" id="waa-lm-icq"/>
+                            <constraint firstItem="12" firstAttribute="trailing" secondItem="7" secondAttribute="trailing" type="default" id="yoW-CS-i4Q"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -71,8 +135,17 @@
         </scene>
     </scenes>
     <classes>
-        <class className="IBUISceneExitPlaceholder" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IBUISceneExitPlaceholder.h"/>
+        <class className="FlipsideViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="done:"/>
+            </relationships>
+        </class>
+        <class className="MainViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
